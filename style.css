@@ -12,6 +12,7 @@ body{
 /* Header */
 header{
   background-color: #1F2937;
+  margin-bottom: 3rem;
 }
 
 .navbar{
@@ -57,7 +58,7 @@ ul{
 } */
 
 .img-size{
-  width: 500px;
+  width: 550px;
   height: auto;
   /* margin: 50px; */
 }
@@ -102,6 +103,101 @@ ul{
   padding: 0.8rem 2.5rem;
 }
 
+/* End of Header and first section */
+
+/* Second section */
+
+.second-section{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 500px;
+  padding-bottom: 80px;
+}
+
+.second-section .div-pictures {
+  display: flex;
+  justify-content: space-between;
+}
 
 
+.second-section .info-header {
+  margin: 0px auto;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.img-size-2{
+  width: 100%;
+  height: 100%;
+}
+
+.ilustration-img{
+  width: 300px;
+}
+
+.quote-background{
+  background-color: #e5e7eb;
+}
+
+.quote-div div {
+  width: 50%;
+}
+
+.quote-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.quote-background .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  opacity: 0.6;
+}
+
+.quote-div div span {
+  float: right;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+/* Second section end */
+
+/*  THIRD SECTION */
+
+.blue-div{
+  /* background-color: blue; */
+  height: 300px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-div div .signup-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-div article {
+  display: flex;
+}
+
+.blue-div article{
+  background-color: #3883f6;
+  border-radius: 10px;
+}
+
+.blue-div article .signup-div {
+  display: flex;
+  flex-direction: column;
+}
 
