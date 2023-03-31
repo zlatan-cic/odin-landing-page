@@ -136,7 +136,7 @@ ul{
 }
 
 .ilustration-img{
-  width: 300px;
+  width: 210px;
 }
 
 .quote-background{
@@ -172,32 +172,65 @@ ul{
 
 /*  THIRD SECTION */
 
-.blue-div{
-  /* background-color: blue; */
+.last-div{
   height: 300px;
-  width: 70%;
-  margin: auto;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.blue-div div .signup-div{
+
+.blue-container{
+  background-color: #3882f6;
+  width: 60%;
+  height: 40%;
   display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+
+.left{
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
+
 }
 
-.blue-div article {
+h4{
+  font-size: 34px;
+  color: #F9FAF8;
+}
+
+.last-p{
+  color: #F9FAF8;
+}
+
+.right{
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 35px;
 }
 
-.blue-div article{
-  background-color: #3883f6;
-  border-radius: 10px;
+.btn{
+  background-color: #3882f6;
+  border: white solid ;
+  color: #E5E7EB;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  padding: 10px;
+  
 }
 
-.blue-div article .signup-div {
-  display: flex;
-  flex-direction: column;
-}
+/* Footer */
 
+footer{
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1f2937;
+  color: #F9FAF8;
+}
